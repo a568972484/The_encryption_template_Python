@@ -160,7 +160,7 @@ def encryptPassword(data, publicKeyStr):
     '''
     data:内容
     publicKeyStr:不需要-----BEGIN PUBLIC KEY-----开头，-----END PUBLIC KEY-----结尾的格式,只要中间部分即可
-    key_encoded:不需要-----BEGIN PUBLIC KEY-----开头，-----END PUBLIC KEY-----结尾的格式
+    key_encoded:需要-----BEGIN PUBLIC KEY-----开头，-----END PUBLIC KEY-----结尾的格式
     '''
     key_encoded='''-----BEGIN PUBLIC KEY-----
 MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCdZGziIrJOlRomzh7M9qzo4ibw
